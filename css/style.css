@@ -101,6 +101,15 @@ h1 {
   padding: 0.25rem;
 }
 
+.desktop-icon a{
+  color: var(--white);
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.7rem;
+  max-width: min-content;
+  align-items: center;
+}
+
 .icon__link{
   display: grid;
   gap: 0.7rem;
